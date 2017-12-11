@@ -404,7 +404,6 @@ left: 50px;
 /* Project title */
  #projects-gallery p{
 	font-family: 'Gafata', sans-serif;
-	font-size: 42px;
 }
 
 /* Animations on hover */
@@ -451,6 +450,10 @@ left: 50px;
 	margin-top: -2px;
 	margin-bottom: -15px;
 	color: rgb(5,47,90);
+}
+
+.projects-content p{
+	font-size: 24px;
 }
 
 .projects-content a{
