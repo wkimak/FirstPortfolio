@@ -43,7 +43,7 @@ var aboutContainer = document.getElementById("about-container");
 var triangle = document.getElementById("triangle-down");
 window.addEventListener("scroll", function(){
 
-if(document.body.scrollTop > 700){
+if(document.body.scrollTop > 700 || document.documentElement.scrollTop > 700){
    $("#about-container").animate({
       height: "325px"},2000);
    setTimeout(function(){
