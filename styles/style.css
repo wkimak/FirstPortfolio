@@ -406,33 +406,9 @@ left: 50px;
 	font-family: 'Gafata', sans-serif;
 }
 
-/* Animations on hover */
-@keyframes growContent{
-	from{height:0px;}
-	to{height: 200px;}
-}
-
-.grow-content{
-	animation-name: growContent;
-	animation-duration: 0.5s;
-	height: 200px;
-	
-}
-
-@keyframes shrinkContent{
-	from{height: 200px;}
-	to{height: 0px;}
-}
-
-.shrink-content{
-	animation-name: shrinkContent;
-	animation-duration: 1s;
-	height: 0px;
-}
-
 /* Content that pops up on hover */
  .projects-content{
- 	display: none;
+ 	height: 0px;
 	width: 100%;
 	padding-left: 10px;
 	padding-right: 10px;
