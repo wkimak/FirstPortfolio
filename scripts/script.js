@@ -31,4 +31,5 @@ if(form.style.display == "none"){
 } else if(event.target == exitBtn){
 	form.style.display = "none";
 }
+}
 });
