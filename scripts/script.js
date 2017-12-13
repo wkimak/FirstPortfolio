@@ -18,25 +18,17 @@ setTimeout(function(){
 
 // --------- Contact Btn event handler ------------ //
 var form = document.getElementById("main-form-container");
-var contactText = document.getElementById("contact-text-container");
 var contactBtn = document.getElementById("contactBtn");
-var contactIcon = document.getElementById("contactNav");
 var body = document.getElementsByTagName("body")[0];
 var exitBtn = document.getElementsByClassName("exitBtn")[0];
 
 //Change display of form container when Btn or Icon are clicked
 body.addEventListener("click", function(event){
 
-if(event.target == contactBtn || event.target == contactIcon){
+if(event.target == contactBtn){
 if(form.style.display == "none"){
 	form.style.display = "block";
-}else{
-	form.style.display = "none";
-}
-}
-
-//Exit btn to get out of form
-if(event.target == exitBtn){
+} else if(event.target == exitBtn){
 	form.style.display = "none";
 }
 });
