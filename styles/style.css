@@ -416,6 +416,7 @@ left: 50px;
 	bottom: 0px;
 	left: 0px;
 	overflow: hidden;
+	 background: -moz-gradient(linear, left bottom, right top, color-stop(0%, rgba(41,191,255,0.95)), color-stop(100%, rgba(55,129,126,0.95)), color-stop(100%, rgba(56,128,123,0)));
 	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(41,191,255,0.95)), color-stop(100%, rgba(55,129,126,0.95)), color-stop(100%, rgba(56,128,123,0)));
 }
 
