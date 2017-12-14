@@ -110,8 +110,8 @@ var circleArray = [];
 for(var i = 0; i< 18; i++){
   var radius = 10;
 
-  var x = Math.random()*((canvas.width-360) - 360 + 1) + 360;
-  var y = Math.random()*((canvas.height-360) - 360 + 1) + 360;
+  var x = Math.floor(Math.random()*((canvas.width-360) - 360 + 1) + 360);
+  var y = Math.floor(Math.random()*((canvas.height-360) - 360 + 1) + 360);
   
   //var dx = (Math.random() - 0.5) *5;
   var dx = (Math.random() * 2.5) - 1;
