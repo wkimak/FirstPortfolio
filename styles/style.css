@@ -453,16 +453,17 @@ footer{
 	margin-left: 50px;
 }
 
-footer label{
+footer a{
 	float: right;
 	margin-right: 50px;
 	position: relative;
 	top: 50px;
+	text-decoration: none;
 }
 
-footer label i, footer label{
+
+footer i, footer a{
 	color: rgb(76,252,216);
-	
 	cursor: pointer;
 	animation-name: bounce;
 	animation-duration: 1s;
